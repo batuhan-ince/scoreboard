@@ -1,0 +1,72 @@
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+}
+
+#home-score {
+    margin-top: 0px;
+    background: #080001;
+    padding: 60px 77.5px;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: CursedTimerUlil-Aznm;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#guest-score {
+    margin-top: 0px;
+    background: #080001;
+    padding: 60px 77.5px;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: CursedTimerUlil-Aznm;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: #1B244A;
+    padding: 20px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: CursedTimerUlil-Aznm;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+#new-game {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px 30px;
+}
